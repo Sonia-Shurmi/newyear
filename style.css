@@ -1,0 +1,60 @@
+/* common css */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn {
+    padding: 20px 25px;
+    background: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 5px;
+    border: none;
+}
+li{
+    list-style: none;
+}
+/* theme color - #F15B22 */
+/* title color - #444343 */
+/* paragraph color - #151414 */
+/* banner section css*/
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    background: url(images/banner/banner1.png) no-repeat bottom left;
+}
+.banner-content {
+    max-width: 50%;
+    margin-left: auto;
+}
+.banner-title{
+    font-size: 65px;
+    line-height:76px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner-description{
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* failure section css */
+.failure{
+    padding: 130px 0;
+}
+.failure-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.failure
