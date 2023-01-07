@@ -3,9 +3,16 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+p, li{
+    color: #444343;
+    line-height: 26px;
+}
 .wrapper{
     max-width: 1140px;
     margin: 0 auto;
+}
+li{
+    list-style: none;
 }
 .btn {
     padding: 20px 25px;
@@ -17,8 +24,13 @@
     border-radius: 5px;
     border: none;
 }
-li{
-    list-style: none;
+.section-title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
 /* theme color - #F15B22 */
 /* title color - #444343 */
@@ -43,8 +55,6 @@ li{
     margin-bottom: 24px;
 }
 .banner-description{
-    color: #444343;
-    line-height: 26px;
     margin-bottom: 30px;
 }
 
@@ -52,9 +62,50 @@ li{
 .failure{
     padding: 130px 0;
 }
-.failure-content{
+.failure-flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.failure
+.failure-content{
+    margin: 0 87px;
+}
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 30px;
+    color: #151414;
+}
+.failure-description{
+    margin-bottom: 10px;
+}
+.failure-list li{
+    margin-bottom: 8px;
+}
+
+/* plans */
+.plan-area{
+    padding-bottom: 130px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.plan {
+    text-align: center;
+}
+.plan img{
+    margin-bottom: 24px;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #151414;
+}
+.plan-description{
+ color: #737272;
+ font-size: 25px;
+ font-weight: 500;
+}
