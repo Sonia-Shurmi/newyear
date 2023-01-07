@@ -4,12 +4,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 p, li{
-    color: #444343;
     line-height: 26px;
 }
 .wrapper{
     max-width: 1140px;
     margin: 0 auto;
+}
+ul{
+    padding: 0;
 }
 li{
     list-style: none;
@@ -19,7 +21,7 @@ li{
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
 }
 .btn-primary{
@@ -43,7 +45,7 @@ li{
 /* paragraph color - #151414 */
 /* banner section css*/
 .banner{
-    height: 100vh;
+    padding: 216px 0 160px;
     display: flex;
     align-items: center;
     text-align: right;
@@ -62,6 +64,7 @@ li{
 }
 .banner-description{
     margin-bottom: 30px;
+    color: #444343;
 }
 
 /* failure section css */
@@ -85,11 +88,19 @@ li{
 }
 .failure-description{
     margin-bottom: 10px;
+    color: #444343;
 }
 .failure-list li{
     margin-bottom: 8px;
+    color: #444343;
 }
-
+.failure-list i{
+    width: 24px;
+    height: 24px;
+    color: #16D887;
+    line-height: 24px;
+    margin-right: 10px;
+}
 /* plans */
 .plan-area{
     padding-bottom: 130px;
@@ -150,4 +161,58 @@ li{
     background: #151414;
     padding: 130px 0;
     color: #fff;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.future{
+    width: 37%;
+}
+.future-title{
+    margin-bottom: 16px;    
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-description{
+    margin-bottom: 24px;
+}
+.future-list{
+    padding: 0 0 16px;
+}
+.future-list li{
+    margin-bottom: 16px;  
+}
+.future-icons i{
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    background: #fff;
+    color: #006AFF;
+    line-height: 46px;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+.future-icons i.fa-youtube{
+    color: #FF0000;
+}
+h3.subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.email{
+    width: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #ffffff;
+    height: 64px;
+    border-radius: 8px;
+    padding: 0px 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.email::placeholder{
+    font-size: 18px;
+    color: #F3F3F3;
 }
