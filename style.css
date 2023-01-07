@@ -216,3 +216,13 @@ h3.subscribe-title {
     font-size: 18px;
     color: #F3F3F3;
 }
+/* extra added navbar style */
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+.logo span{
+    color: #F15B22;
+    text-transform: lowercase;
+}
